@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L’Homme d’acier — dossier artistique interactif</title>
+  <meta name="description" content="Dossier artistique interactif du spectacle L’Homme d’acier.">
+  <meta name="theme-color" content="#0f2b44">
+  <link rel="preload" href="assets/pages/01_accueil_panorama.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#pitch">Aller au contenu</a>
+
+  <header class="topbar" aria-label="Navigation principale">
+    <a class="brand" href="#accueil" aria-label="Retour à la première page">L’Homme d’acier</a>
+    <nav class="quick-nav" aria-label="Accès rapides">
+      <a href="#pitch">Pitch</a>
+      <a href="#auteur">Auteur</a>
+      <a href="#scene">Scène</a>
+      <a href="#budget">Budget</a>
+      <a href="#video">Vidéo</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+  </header>
+
+  <aside class="menu-panel" id="site-menu" aria-label="Menu du dossier" aria-hidden="true">
+    <button class="menu-close" type="button" aria-label="Fermer le menu">×</button>
+    <a href="#accueil">Accueil interactif</a>
+    <a href="#pitch">Pitch</a>
+    <a href="#presentation">Présentation</a>
+    <a href="#intention">Note d’intention</a>
+    <a href="#auteur">Auteur / adaptation</a>
+    <a href="#artistique">Équipe artistique</a>
+    <a href="#scene">Projet de scène</a>
+    <a href="#etat">État du projet</a>
+    <a href="#budget">Prévisionnel</a>
+    <a href="#affiche">Affiche</a>
+    <a href="#video">Vidéo</a>
+    <a href="mailto:fieljuan@yahoo.es">Mail</a>
+    <a href="tel:+33650241377">Téléphone</a>
+  </aside>
+
+  <main>
+    <section class="page-section first-page" id="accueil" data-page="Accueil interactif">
+      <h1 class="sr-only">L’Homme d’acier — accueil interactif</h1>
+      <div class="page-frame interactive-frame">
+        <img class="page-image" src="assets/pages/01_accueil_panorama.png" alt="Première page du dossier artistique L’Homme d’acier, utilisée comme menu visuel interactif." loading="eager" decoding="async" data-zoom>
+
+        <a class="hotspot hotspot-title" href="#pitch" aria-label="Voir le pitch">
+          <span>Pitch</span>
+        </a>
+        <a class="hotspot hotspot-face" href="#pitch" aria-label="Voir le pitch à partir du visage dessiné">
+          <span>Pitch</span>
+        </a>
+        <a class="hotspot hotspot-photo" href="#auteur" aria-label="Voir la page auteur et adaptation">
+          <span>Auteur / adaptation</span>
+        </a>
+        <a class="hotspot hotspot-decor" href="#scene" aria-label="Voir le projet de scène">
+          <span>Projet de scène</span>
+        </a>
+        <a class="hotspot hotspot-info" href="#budget" aria-label="Voir le prévisionnel et les informations de production">
+          <span>Budget</span>
+        </a>
+        <a class="hotspot hotspot-quote" href="#intention" aria-label="Voir la note d’intention">
+          <span>Intention</span>
+        </a>
+        <a class="hotspot hotspot-mail" href="mailto:fieljuan@yahoo.es" aria-label="Envoyer un mail à Ivan Gonzalez">
+          <span>Mail</span>
+        </a>
+        <a class="hotspot hotspot-phone" href="tel:+33650241377" aria-label="Téléphoner à Ivan Gonzalez">
+          <span>Téléphone</span>
+        </a>
+      </div>
+      <div class="tiny-tools" aria-label="Outils de la première page">
+        <button class="ghost-button" type="button" id="toggle-hotspots">Afficher les zones cliquables</button>
+      </div>
+    </section>
+
+    <section class="page-section" id="pitch" data-page="Pitch">
+      <h2 class="sr-only">Pitch</h2>
+      <img class="page-image" src="assets/pages/02_presentation.png" alt="Page pitch et présentation du dossier artistique." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section" id="presentation" data-page="Portrait et texte">
+      <h2 class="sr-only">Portrait et texte</h2>
+      <img class="page-image" src="assets/pages/03_portrait_texte.png" alt="Page portrait et texte du dossier artistique." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section" id="intention" data-page="Note d’intention">
+      <h2 class="sr-only">Note d’intention</h2>
+      <img class="page-image" src="assets/pages/04_note_intention.png" alt="Page note d’intention du dossier artistique." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section" id="auteur" data-page="Auteur / adaptation">
+      <h2 class="sr-only">Auteur et adaptation</h2>
+      <img class="page-image" src="assets/pages/05_auteur_adaptation.png" alt="Page auteur et adaptation du dossier artistique." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section" id="artistique" data-page="Équipe artistique">
+      <h2 class="sr-only">Équipe artistique</h2>
+      <img class="page-image" src="assets/pages/06_fiche_artistique.png" alt="Page fiche artistique du dossier artistique." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section" id="scene" data-page="Projet de scène">
+      <h2 class="sr-only">Projet de scène</h2>
+      <img class="page-image" src="assets/pages/07_scenographie_lumiere.png" alt="Page scénographie et lumière du dossier artistique." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section" id="etat" data-page="État du projet">
+      <h2 class="sr-only">État du projet</h2>
+      <img class="page-image" src="assets/pages/08_etat_projet.png" alt="Page état du projet du dossier artistique." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section" id="budget" data-page="Prévisionnel">
+      <h2 class="sr-only">Prévisionnel et recettes</h2>
+      <img class="page-image" src="assets/pages/09_previsionnel_recettes.png" alt="Page prévisionnel et recettes du dossier artistique." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section" id="affiche" data-page="Affiche">
+      <h2 class="sr-only">Affiche du spectacle</h2>
+      <img class="page-image" src="assets/pages/10_affiche.png" alt="Affiche théâtrale du spectacle L’Homme d’acier." loading="lazy" decoding="async" data-zoom>
+    </section>
+
+    <section class="page-section video-section" id="video" data-page="Vidéo">
+      <h2 class="sr-only">Vidéo</h2>
+      <div class="video-frame">
+        <video controls playsinline preload="metadata" poster="assets/video/poster-teaser.jpg">
+          <source src="assets/video/teaser-l-homme-d-acier.mp4" type="video/mp4">
+          Votre navigateur ne peut pas lire cette vidéo.
+        </video>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-contact" aria-label="Contact">
+    <a href="mailto:fieljuan@yahoo.es">fieljuan@yahoo.es</a>
+    <span aria-hidden="true">·</span>
+    <a href="tel:+33650241377">06 50 24 13 77</a>
+  </footer>
+
+  <div class="image-modal" id="image-modal" aria-hidden="true" role="dialog" aria-label="Agrandissement de page">
+    <button type="button" class="modal-close" aria-label="Fermer l’image">×</button>
+    <img alt="Page agrandie">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
